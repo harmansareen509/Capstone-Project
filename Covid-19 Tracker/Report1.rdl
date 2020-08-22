@@ -763,7 +763,7 @@ ORDER BY Country</CommandText>
                       <Value>=Fields!Month.Value</Value>
                     </SortExpression>
                   </SortExpressions>
-                  <Label>=Fields!Month.Value</Label>
+                  <Label>=Fields!MonthName.Value</Label>
                 </ChartMember>
               </ChartMembers>
             </ChartCategoryHierarchy>
