@@ -50,8 +50,11 @@
   </PropertyGroup>
   <ItemGroup>
     <DataSet Include="ConfirmedCases.rsd" />
+    <DataSet Include="ConfirmedDeaths.rsd" />
     <DataSet Include="DateMobility.rsd" />
     <DataSet Include="DayWiseInfectionRate.rsd" />
+    <DataSet Include="GaugeConfirmedCases.rsd" />
+    <DataSet Include="GaugeConfirmedDeaths.rsd" />
     <DataSet Include="Mobility.rsd" />
     <DataSet Include="MonthlyInfectionRate.rsd" />
   </ItemGroup>
@@ -60,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Report Include="Report1.rdl" />
+    <Report Include="Worldwide Impact of Covid-19.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
