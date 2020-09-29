@@ -17,6 +17,7 @@
           <rd:DbType>AnsiString</rd:DbType>
         </DataSetParameter>
         <DataSetParameter Name="@StartDate">
+          <DefaultValue>=Format(Now(),"dd/mm/yyyy")</DefaultValue>
           <ReadOnly>false</ReadOnly>
           <Nullable>false</Nullable>
           <OmitFromQuery>false</OmitFromQuery>

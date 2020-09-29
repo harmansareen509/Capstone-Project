@@ -2,7 +2,7 @@
 <RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CovidTracker">
   <ConnectionProperties>
     <Extension>SQL</Extension>
-    <ConnectString>Data Source=HOME;Initial Catalog=CovidTracker</ConnectString>
+    <ConnectString>Data Source=DESKTOP-8T293CD;Initial Catalog=CovidTracker</ConnectString>
     <IntegratedSecurity>true</IntegratedSecurity>
   </ConnectionProperties>
   <DataSourceID>b93694f3-1e48-4b68-98d1-8733ab59163f</DataSourceID>
